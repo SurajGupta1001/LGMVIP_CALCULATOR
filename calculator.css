@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fd9d03; 
+    
+}
+.container{
+    text-align:center;
+}
+table{
+    margin:auto;
+}
+input{
+   background-color: #fd9903;
+    grid-column: 1/-1;
+ 
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    text-align: right;
+    font-size: 1.2rem;
+    color: rgb(255, 254, 254);
+    overflow-x: visible;
+    height: 60px;
+    word-wrap: break-word;
+    word-break: break-all;
+    max-width: 260px;
+    margin-bottom: 1rem;
+    resize: none;
+}
+button{
+    
+    background-color: #fd6703;
+     color: rgb(251, 249, 249);
+    width: 50px;
+    height: 50px;
+   
+    font-size: 1.3rem;
+    margin: 0.2rem 0.4rem;
+    border: none;
+    outline: none;
+    
+  
+}
+
+button:hover{
+    background-color: #1E1E1E;
+     color: rgb(8, 8, 8);
+    width: 50px;
+    height: 50px;
+    
+    font-size: 1.3rem;
+    margin: 0.2rem 0.4rem;
+    border: none;
+    outline: none;
+    background-color: #fd0378;
+    
+  
+}
+.calculator{
+    width: 320px;
+    background-color: rgba(253, 250, 250, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    
+}
+.calculator:hover{
+    width: 320px;
+    background-color: #f0eb64;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    
+}
+h1{
+    font-size:40px;
+    color: rgb(253, 251, 251);
+    text-shadow: 1px 1px 2px rgb(244, 242, 242), 0 0 25px #fd0378, 0 0 5px #3a6186;
+}
+
+.red {
+    color: rgb(252, 248, 248);
+}
+
+.green {
+    color: #fbf7f7;
+}
+
+#equal{
+    background-color: #fd0378;
+    color: rgb(253, 248, 248);
+}
